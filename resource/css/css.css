@@ -1,0 +1,228 @@
+
+
+*	{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:transparent;
+	}
+
+div#wrapper
+	{
+	margin: 0 auto;
+	text-align: left;
+	border:1px solid #c5c5c5;
+	}
+
+body#editor	{
+	text-align:left;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	}
+
+div#header	{
+	color:#000;
+	height:90px;
+	background:#fff;
+	border-bottom: 1px solid #c5c5c5;
+	background: #f5f5f5;
+	min-width:1000px;
+	}
+
+#header h1	{
+	margin:20px 0 0 0;
+	font-size:30px;
+	float:left;
+	color: #a5a5a5;
+	}
+
+#header #ad {
+	float:left;
+	margin:0 0 0 10px;
+	border:0px solid #fff;
+	width:728px;
+	height:90px;
+	}
+
+div#butt	{
+	height:50px;
+	border-bottom: 1px solid #c5c5c5;
+	background:#fff;
+	}
+
+div#butt input {
+	margin:10px 0 0 10px;
+	background:red;
+	color:#fff;
+	width:150px;
+	height:30px;
+	font:14px Verdana, Arial, Helvetica, sans-serif;
+	}
+
+div#CodeArea	{
+	float:left;
+	height:435px;
+	width:50%;
+	margin-left:5px;
+	}
+
+#CodeArea h2	{
+	margin:10px 0 6px 5px;
+	color:red;
+	font-size:14px;
+	}
+
+#CodeArea textarea{
+	width:100%;
+	height:400px;
+	overflow:auto;
+	border:1px solid #c5c5c5;
+		border-right:0;
+
+	font:14px "Courier New", Courier, monospace;
+	}
+
+div#result	{
+	float:left;
+	height:435px;
+	width:49%;
+	}
+
+#result h2	{
+	margin:10px 0 6px 5px;
+	color:red;
+	font-size:14px;
+	}
+
+#result iframe{
+	width:100%;
+	height:400px;
+	border:1px solid #c5c5c5;
+	}
+
+#footer	{
+	clear:both;
+	background:#fff;
+	border:1px solid #f5f5f5;
+	text-align:left;
+	background: #f5f5f5;
+	}
+
+#footer	p {
+	margin:10px;
+	color: #000000;
+	font-weight:bold;
+	}
+
+a:link, a:visited {
+	text-decoration : underline;
+	color : #666;
+	background : transparent; 
+	}
+
+a:hover {
+	text-decoration : underline;
+	color: #666;
+	background : transparent; 
+	}
+
+a:active {
+	text-decoration : underline;
+	color : #666;
+	background : transparent;  
+	}
+
+
+.icon {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+
+	-webkit-mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/) no-repeat 50% 50%;
+	mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+
+
+
+.icon-red { background-color: red; }
+.icon-orange { background-color: orange; }
+.icon-yellow { background-color: yellow; }
+.icon-green { background-color: green; }
+.icon-blue { background-color: blue; }
+.icon-indigo { background-color: indigo; }
+.icon-violet { background-color: violet; }
+
+.icon-cyan { background-color: cyan; }
+.icon-magenta { background-color: magenta; }
+.icon-lime { background-color: lime; }
+.icon-olive { background-color: olive; }
+.icon-maroon { background-color: maroon; }
+.icon-purple { background-color: purple; }
+
+.icon-white { background: white; }
+.icon-gray10 { background: #e5e5e5; }
+.icon-gray20 { background: #ccc; }
+.icon-gray30 { background: #b2b2b2; }
+.icon-gray40 { background: #999; }
+.icon-gray50 { background: #7f7f7f; }
+.icon-gray60 { background: #666; }
+.icon-gray70 { background: #4c4c4c; }
+.icon-gray80 { background: #333; }
+.icon-gray90 { background: #191919; }
+.icon-black { background: black; }
+
+.icon-gradient {
+	background: -webkit-radial-gradient(50% 50%, red, white);
+	background: radial-gradient(50% 50%, red, white);
+}
+
+.icon-kitten {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/grumpy.jpeg) 50% 0%;
+	background-size: cover;
+}
+
+.icon-animation {
+	background: red;
+	-webkit-animation: ❤ 6.66s infinite linear;
+	animation: ❤ 6.66s infinite linear;
+}
+
+@-webkit-keyframes ❤ {
+	0% { background-color: red; }
+	16% { background-color: orange; }
+	32% { background-color: yellow; }
+	48% { background-color: green; }
+	60% { background-color: blue; }
+	72% { background-color: indigo; }
+	84% { background-color: violet; }
+}
+
+@keyframes ❤ {
+	0% { background-color: red; }
+	16% { background-color: orange; }
+	32% { background-color: yellow; }
+	48% { background-color: green; }
+	60% { background-color: blue; }
+	72% { background-color: indigo; }
+	84% { background-color: violet; }
+}
+
+/* LAYOUT */
+html, body { height: 100%; }
+
+body {
+	background: #fcfcfc;
+	margin: 0;
+}
+
+.wrap {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
