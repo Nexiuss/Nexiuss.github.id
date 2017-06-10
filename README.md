@@ -3,7 +3,9 @@ Nexius's index
 
 
 index:Nexiuss.github.io/
-test1:Nexiuss.github.io/pages/test1
-test2:Nexiuss.github.io/pages/test2
-test3:Nexiuss.github.io/pages/test3
+<br>
+test1:https://nexiuss.github.io/pages/test.html
+<br>
+test2:https://nexiuss.github.io/pages/test2.html
+<br>
 
